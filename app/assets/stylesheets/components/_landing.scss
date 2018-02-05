@@ -1,0 +1,76 @@
+.landing {
+  .about-section {
+    min-height: 100vh;
+    position: relative;
+    background-color: $color-purple;
+
+    .navbar {
+      padding: 1em;
+      font-family: 'Cabin';
+      font-size: 15.7px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      background-color: $color-dark-purple;
+
+      .navbar-brand img {
+        width: 85px;
+        height: auto;
+      }
+
+      .nav-item {
+        .nav-link {
+          color: rgba($color-white, 0.5);
+          transition: all 0.5s;
+
+          &:hover {
+            color: rgba($color-blue, 1);
+          }
+        }
+      }
+    }
+
+    .about-wrapper {
+      height: calc(100vh - 83px);
+      position: relative;
+    }
+
+    .effect-phrase {
+      font-family: 'Cabin';
+      font-size: 78.8px;
+      font-weight: 500;
+      color: $color-blue;
+      line-height: 102px;
+    }
+
+    .line {
+      width: 211.5px;
+      height: 5px;
+      background-color: $color-blue;
+    }
+
+    .company-phrase {
+      font-family: 'Spectral';
+      font-size: 21.5px;
+      font-style: italic;
+      color: rgba($color-white, 0.8);
+    }
+
+    .plane {
+      position: absolute;
+      top: calc(20vh);
+      right: 0;
+
+      .image {
+        width: 700px;
+        height: auto;
+        transform: rotate(-35deg)
+      }
+    }
+  }
+
+  .what-we-do-section {
+    min-height: 100vh;
+    position: relative;
+    background-color: $color-blue;
+  }
+}
